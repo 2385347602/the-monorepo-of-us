@@ -2,7 +2,8 @@ import {client} from '@/sanity/client';
 import {PortableText} from '@portabletext/react';
 
 import Image from 'next/image';
-import urlFor from '@/sanity/urlFor'; // A helper function to build image URLs
+import {urlFor} from "@/sanity/lib/image";
+// import urlFor from '@/sanity/urlFor'; // A helper function to build image URLs
 
 const ptComponents = {
     types: {
